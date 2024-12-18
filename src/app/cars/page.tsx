@@ -29,7 +29,7 @@ const Cars = () => {
       name: "Porsche 911 Turbo S",
       price: 220000,
       desc: "Iconic sports car",
-      img: "/images/911.jpg ",
+      img: "/images/911.jpg",
     },
     {
       id: 5,
