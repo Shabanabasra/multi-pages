@@ -15,7 +15,7 @@ const Cars = () => {
       name: "Ferrari Roma",
       price: 222000,
       desc: "Elegance meets performance",
-      img: "/images/roma.jfif",
+      img: "/images/roma.jpg",
     },
     {
       id: 3,
@@ -29,14 +29,14 @@ const Cars = () => {
       name: "Porsche 911 Turbo S",
       price: 220000,
       desc: "Iconic sports car",
-      img: "/images/911.jfif",
+      img: "/images/911.jpg ",
     },
     {
       id: 5,
       name: "McLaren 720S",
       price: 299000,
       desc: "A supercar that delivers thrilling performance",
-      img: "/images/mclaren-720s.webp",
+      img: "/images/mclaren-720s.jpg",
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const Cars = () => {
           <Image
             src={car.img}
             alt={car.name}
-            width={500}
+            width={400}
             height={300}
             className="object-cover"
           />
